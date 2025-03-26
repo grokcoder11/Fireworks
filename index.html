@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Firework Show (Three.js on Cloud GPU)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="info">Click to launch fireworks! (Cloud GPU Render)</div>
+    <div id="container"></div>
+
+    <!-- Three.js CDN -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!-- Main Script -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
